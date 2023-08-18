@@ -4,7 +4,20 @@ Enter your code on line 7 to print 'Hello, World!'
 to the console (the panel on the right)
 */
 
-console.log("Hello");
+n = 10;
+i = 0;
+j = 0;
+s = "Hello World!"
+
+for (i = 0; i < n; i++)
+{
+   console.log(s + s)
+   for (j = 0; j < n; j++)
+   {
+      console.log(j + 1);
+   }
+   console.log('Quoth the Raven "Nevermore!"');
+}
 
 /*  
 Next, PLAY! 
